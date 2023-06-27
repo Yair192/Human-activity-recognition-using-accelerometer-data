@@ -41,6 +41,17 @@ In order to get good comparison between different methods, we examined 4 differe
 3. LSTM network.
 4. GRU.
    
+## Files in the repository
+
+|File name         | Purpsoe |
+|----------------------|------|
+|`/data/WISDM_ar_v1.1_raw.txt`| file contains the raw acc measurements|
+|`/data/WISDM_ar_v1.1_raw_about.txt`| dataset information|
+|`/code/cnn_1d.ipynb`| Notebook that contains the 1D CNN code|
+|`/code/cnn_2d.ipynb`| Notebook that contains the 2D CNN code|
+|`/code/lstm.ipynb`| Notebook that contains the LSTM code|
+|`/code/gru.ipynb`| Notebook that contains the GRU code|
+
 
 ## References
 [1] WISDM: WIreless Sensor Data Mining: https://www.cis.fordham.edu/wisdm/dataset.php
