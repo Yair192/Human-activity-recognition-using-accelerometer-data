@@ -7,7 +7,9 @@
 
 This project we developed and examined differenet network to identify human activity from 6 different classes using accelerometers data only.
 
- ![image]([https://user-images.githubusercontent.com/65540180/124584259-b467ef80-de5c-11eb-804e-287059c8643d.png](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-51379-5_9/MediaObjects/482899_1_En_9_Fig1_HTML.png))
+<p align="center">
+  <img width="760" height="400" src="https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-51379-5_9/MediaObjects/482899_1_En_9_Fig1_HTML.png">
+</p>
 
 ## Background
 
