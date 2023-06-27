@@ -16,13 +16,14 @@ By training a neural network on this dataset, we aim to enable the network to ac
 ## Data
 
 The data being used released by the Wireless Sensor Data Minining (WISDM) Lab [1] [2].
-The data has 1,098,207 examples and 6 classes (Walking, Jogging, Upstairs, Downstairs, Sitting, Standing) by the following distribution:
-Walking - 38.6%
-Jogging - 31.2%
-Upstairs - 11.2%
-Downstairs - 9.1%
-Sitting - 5.5%
-Standing - 4.4%
+The data has 1,098,207 examples and 6 classes (Walking, Jogging, Upstairs, Downstairs, Sitting, Standing) by the following distribution:    
+
+Walking - 38.6%     
+Jogging - 31.2%    
+Upstairs - 11.2%    
+Downstairs - 9.1%    
+Sitting - 5.5%    
+Standing - 4.4%    
 
 Every example has it's user id, activity label, time stamp, x axis data, y axis data , z axis data.
 The sampling rate is 20 Hz.
