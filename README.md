@@ -1,4 +1,4 @@
-# Human activity recognition using accelerometer mdata
+# Human activity recognition using accelerometer data
 
   <p align="center">
     <a • href="https://github.com/Yair192">Yair Stolero</a> 
