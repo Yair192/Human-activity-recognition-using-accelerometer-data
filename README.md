@@ -7,6 +7,8 @@
 
 This project we developed and examined differenet network to identify human activity from 6 different classes using accelerometers data only.
 
+ ![image]([https://user-images.githubusercontent.com/65540180/124584259-b467ef80-de5c-11eb-804e-287059c8643d.png](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-51379-5_9/MediaObjects/482899_1_En_9_Fig1_HTML.png))
+
 ## Background
 
 The goal is to develop a system using IMU (Inertial Measurement Unit) sensors in smart wearables to detect user activity through deep learning. The system will utilize accelerometer data collected from smartphones carried by individuals performing six different exercises (Downstairs, Jogging, Sitting, Standing, Upstairs, Walking). The dataset includes timestamps, person IDs, and acceleration measurements for the x, y, and z axes.
