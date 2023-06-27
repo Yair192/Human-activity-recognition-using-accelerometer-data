@@ -9,6 +9,45 @@ This project we developed and examined differenet network to identify human acti
 
 ## Background
 
-Project goal: Achieve maximumuracy detection in recognition of humann activity.
-Input data: 3 Axis accelerometers d
+The goal is to develop a system using IMU (Inertial Measurement Unit) sensors in smart wearables to detect user activity through deep learning. The system will utilize accelerometer data collected from smartphones carried by individuals performing six different exercises (Downstairs, Jogging, Sitting, Standing, Upstairs, Walking). The dataset includes timestamps, person IDs, and acceleration measurements for the x, y, and z axes.
+
+By training a neural network on this dataset, we aim to enable the network to accurately identify the activity being performed based on previously unseen accelerometer data. The neural network will learn to differentiate between the six activities by analyzing the provided data. Consequently, when presented with new data, the trained neural network will be capable of predicting the ongoing activity of the user at any given time.
+
+## Data
+
+The data being used released by the Wireless Sensor Data Minining (WISDM) Lab [1] [2].
+The data has 1,098,207 examples and 6 classes (Walking, Jogging, Upstairs, Downstairs, Sitting, Standing) by the following distribution:
+Walking - 38.6%
+Jogging - 31.2%
+Upstairs - 11.2%
+Downstairs - 9.1%
+Sitting - 5.5%
+Standing - 4.4%
+
+Every example has it's user id, activity label, time stamp, x axis data, y axis data , z axis data.
+The sampling rate is 20 Hz.
+
+## Data processing 
+
+The data was divided into windows and was labeled as the main activity in the specific window.
+Also, due to the inbalanced data, the train-test split was done by the uder id.
+
+## Models
+
+In order to get good comparison between different methods, we examined 4 different neural networks.
+
+1. First, we developed a 1D CNN as in [3]. In this method, the networks trains on every axis seperetly.
+2. The second network is 2D CNN. Here, we defined a kernal that takes into acount more then 1 axis in it's training.
+3. LSTM network.
+4. GRU.
+   
+
+## References
+[1] WISDM: WIreless Sensor Data Mining: https://www.cis.fordham.edu/wisdm/dataset.php
+
+[2] Jennifer R. Kwapisz, Gary M. Weiss and Samuel A. Moore (2010). Activity Recognition using Cell Phone Accelerometers: https://www.cis.fordham.edu/wisdm/includes/files/sensorKDD-2010.pdf
+
+[3] https://github.com/mohan-mj/Activity-Detection-using-IMU-sensor
+
+
 
