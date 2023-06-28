@@ -50,12 +50,12 @@ In order to get good comparison between different methods, we examined 4 differe
 
 |File name         | Purpsoe |
 |----------------------|------|
-|`/data/WISDM_ar_v1.1_raw.txt`| file contains the raw acc measurements|
-|`/data/WISDM_ar_v1.1_raw_about.txt`| dataset information|
-|`/code/cnn_1d.ipynb`| Notebook that contains the 1D CNN code|
-|`/code/cnn_2d.ipynb`| Notebook that contains the 2D CNN code|
-|`/code/lstm.ipynb`| Notebook that contains the LSTM code|
-|`/code/gru.ipynb`| Notebook that contains the GRU code|
+|`window_size`| Numner of samples being taken in one segment|
+|`step_size`| The step between two different segments|
+|`leack_slope`| The size of the negative slop in LeakyReLU activation function|
+|`batch_size`| The size of the batch|
+|`learning_rate`| The gradient descent learning rate|
+|`epochs`| Nubmber of epochs for training|
 
 
 ## Parameters
