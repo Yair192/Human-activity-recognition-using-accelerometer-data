@@ -45,20 +45,9 @@ In order to get good comparison between different methods, we examined 4 differe
 2. The second network is 2D CNN. Here, we defined a kernal that takes into acount more then 1 axis in it's training.
 3. LSTM network.
 4. GRU.
-   
+
 ## Files in the repository
 
-|File name         | Purpsoe |
-|----------------------|------|
-|`window_size`| Numner of samples being taken in one segment|
-|`step_size`| The step between two different segments|
-|`leack_slope`| The size of the negative slop in LeakyReLU activation function|
-|`batch_size`| The size of the batch|
-|`learning_rate`| The gradient descent learning rate|
-|`epochs`| Nubmber of epochs for training|
-
-
-## Parameters
 
 |File name         | Purpsoe |
 |----------------------|------|
@@ -68,6 +57,34 @@ In order to get good comparison between different methods, we examined 4 differe
 |`/code/cnn_2d.ipynb`| Notebook that contains the 2D CNN code|
 |`/code/lstm.ipynb`| Notebook that contains the LSTM code|
 |`/code/gru.ipynb`| Notebook that contains the GRU code|
+
+
+## Parameters
+
+|Parameter         | Description |
+|----------------------|------|
+|`window_size`| Numner of samples being taken in one segment|
+|`step_size`| The step between two different segments|
+|`leack_slope`| The size of the negative slop in LeakyReLU activation function|
+|`batch_size`| The size of the batch|
+|`learning_rate`| The gradient descent learning rate|
+|`epochs`| Nubmber of epochs for training|
+
+
+
+
+## Results
+
+We trained 4 different networks as described above. Every network got different results.
+In this part, we will present only the accuracy achieved by every model,. In the code you can find the confusion matrix and more statistical results.
+
+|Model         | Test Accuracy |
+|----------------------|------|
+|`1D CNN`| 91.48% |
+|`2D CNN`| 90.76% |
+|`LSTM`| 87.78% |
+|`GRU`| 91.26% |
+
 
 
 ## References
